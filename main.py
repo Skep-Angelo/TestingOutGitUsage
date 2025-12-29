@@ -5,6 +5,7 @@ root = Tk()
 def run(funcid = None):
     for i in range(0,5):
         print("i did it")
+        print("hello world")
 
 button = Button(root, text="hi", command=run)
 button.pack()
